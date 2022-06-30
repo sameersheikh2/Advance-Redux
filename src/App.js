@@ -13,7 +13,7 @@ function App() {
 
   return (
       <Layout>
-        {!showingCart && <Cart />}
+        {showingCart && <Cart />}
         <Products />
       </Layout>
   );
